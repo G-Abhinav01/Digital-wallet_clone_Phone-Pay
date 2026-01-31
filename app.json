@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "PhonePe Clone",
+    "slug": "phonepe-clone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "phonepe",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phonepe.clone"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#5F259F",
+        "foregroundImage": "./assets/images/icon.png"
+      },
+      "package": "com.phonepe.clone",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#0D0D0D",
+          "dark": {
+            "backgroundColor": "#0D0D0D"
+          }
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}
