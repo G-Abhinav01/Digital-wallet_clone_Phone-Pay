@@ -1,0 +1,164 @@
+Project Title: PhonePe App – Pixel Perfect UI Clone (React Native)
+
+Goal:
+Create a pixel-by-pixel accurate clone of the PhonePe app landing/home page UI using React Native. This is a UI/UX-focused assignment, not a backend or payments implementation.
+
+I am attaching the latest UI screenshots of the official PhonePe app along with this prompt.
+You must strictly match the screenshots visually.
+
+Core Requirements
+1. Technology Stack
+
+React Native
+
+Use Expo if needed (preferred for quick setup)
+
+JavaScript (not TypeScript unless required)
+
+No backend or real API calls
+
+2. UI Accuracy (VERY IMPORTANT)
+
+The UI must be a pixel-by-pixel replica of the provided PhonePe screenshots
+
+Match exactly:
+
+Layout and spacing
+
+Colors (backgrounds, gradients, icons)
+
+Font family, font weight, and font size
+
+Button shapes, border radius, shadows
+
+Icon sizes and positions
+
+Use Flexbox properly to achieve exact alignment
+
+Use Dimensions / PixelRatio where needed to match spacing precisely
+
+3. Scope of Screens to Clone
+
+Clone only the landing/home screen, including:
+
+Header (wallet balance, profile, notifications, scanner icon)
+
+Scanner section
+
+Quick action buttons (Send Money, Recharge, Pay Bills, etc.)
+
+Merchant/payment sections
+
+Offers / banners (static mock)
+
+Bottom navigation bar (Home, Stores, Insurance, Wealth, History or equivalent)
+
+4. Interactivity & Mock Functionality
+
+Even though no backend is required:
+
+Make most buttons and icons clickable
+
+Use:
+
+TouchableOpacity / Pressable
+
+Mock navigation (e.g., Alert, console.log, or dummy screens)
+
+Clicking actions should:
+
+Open mock screens OR
+
+Show placeholder modals OR
+
+Log meaningful actions (e.g., “Scanner opened”, “Send Money clicked”)
+
+5. Mocked Sections (Must Include)
+
+Create proper UI mocks for:
+
+📷 PhonePe Scanner
+
+Camera UI mock (no real camera access required)
+
+Scanner frame overlay
+
+“Scan any QR” text
+
+👤 Accounts Section
+
+Bank accounts/cards layout
+
+Balance placeholders
+
+Account tiles styled like PhonePe
+
+6. Assets & Icons
+
+You may:
+
+Use placeholder images
+
+Use vector icons (Ionicons / MaterialIcons / custom SVGs)
+
+Real PhonePe assets are not required, but:
+
+Visual resemblance must be extremely close
+
+Icons do not need real functionality
+
+7. Code Quality & Structure
+
+Clean folder structure:
+
+components/
+
+screens/
+
+assets/
+
+Reusable components for:
+
+Buttons
+
+Icon tiles
+
+Sections
+
+Use StyleSheet (no inline styles)
+
+Comment the code where necessary
+
+8. Navigation
+
+Use React Navigation
+
+Bottom tab navigation should visually match PhonePe
+
+Navigation destinations can be dummy screens
+
+9. Explicit Constraints
+
+❌ No backend
+
+❌ No authentication
+
+❌ No real payments
+
+❌ No real camera or QR scanning
+
+✅ UI accuracy is the top priority
+
+10. Final Deliverable Expectations
+
+App should run without errors in Replit
+
+Home screen should look indistinguishable from the real PhonePe app
+
+All major UI elements should be clickable
+
+Code should be readable and well-structured
+
+Important Note:
+I have attached the latest PhonePe UI screenshots.
+You must use them as the single source of truth for spacing, sizing, colors, and layout.
